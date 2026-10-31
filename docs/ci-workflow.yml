@@ -1,0 +1,42 @@
+# Smart Transit — hər push / PR-da: lint, testlər (unit + inteqrasiya + təhlükəsizlik), tərcümə yoxlaması, build
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  server:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: server
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: server/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+
+  client:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: client-react
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: client-react/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run i18n:check
+      - run: npm test
+      - run: npm run build

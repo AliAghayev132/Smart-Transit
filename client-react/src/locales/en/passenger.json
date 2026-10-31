@@ -1,0 +1,97 @@
+{
+  "home": {
+    "panel": "Trip panel",
+    "yourTrip": "Your trip",
+    "whereTo": "Where to?",
+    "pickHint": "Tap the map to set “{{field}}”.",
+    "lines": "Lines",
+    "hint": "Tap a line to see when buses arrive and how full they are."
+  },
+  "search": {
+    "myLocation": "My location",
+    "gps": "Use GPS",
+    "pickOnMap": "Pick on map",
+    "tapMap": "Tap the map",
+    "tapMapNow": "Tap the map now…",
+    "unavailable": "Address search is down — type a stop name instead",
+    "locating": "Finding you…",
+    "gpsDenied": "Location access was denied",
+    "gpsInsecure": "GPS only works on HTTPS or localhost",
+    "placeFailed": "Couldn’t open this place — try another one",
+    "stopSecondary_one": "Stop on line {{routes}}",
+    "stopSecondary_other": "Stop on lines {{routes}}",
+    "address": "Address"
+  },
+  "trip": {
+    "leaveNow": "Leave now",
+    "leaveAt": "Leave at {{time}}",
+    "arriveAt": "Arrive at {{time}}",
+    "go": "GO",
+    "goHint": "Confirm your trip so operators can see demand coming",
+    "onYourWay": "You’re on your way",
+    "cancelGo": "Cancel trip",
+    "goConfirmed": "Trip saved. If it gets busy, an extra bus can go out in time.",
+    "walkOnly": "Walking is faster for this trip.",
+    "tag": { "fastest": "Fastest", "comfort": "Most comfortable" },
+    "preferLabel": "Preference",
+    "prefer": { "fast": "Fastest", "comfort": "Least crowded" },
+    "calculating": "Calculating…",
+    "noRoute": "No route between these points. Try a spot nearby.",
+    "alternatives": "Other options",
+    "liveGps": "Live GPS",
+    "moreStops_one": "{{count}} more stop",
+    "moreStops_other": "{{count}} more stops"
+  },
+  "route": {
+    "busesOnLine_one": "{{count}} bus on the line",
+    "busesOnLine_other": "{{count}} buses on the line",
+    "switchDirection": "Switch direction",
+    "atStop": "Stop:",
+    "noBuses": "No buses heading this way right now.",
+    "waitingNow_one": "~{{count}} person waiting",
+    "waitingNow_other": "~{{count}} people waiting",
+    "stops": "Stops",
+    "busApproaching": "{{plate}} is approaching this stop"
+  },
+  "report": {
+    "title": "How full is the bus?",
+    "subtitle": "One tap helps everyone riding after you.",
+    "whichBus": "Which bus?",
+    "unknownBus": "Not sure",
+    "useGps": "Add my location — verified reports count more",
+    "gpsMissing": "No location access, so the report was sent without it."
+  },
+  "demand": {
+    "title": "Leaving near you",
+    "radius": "Radius",
+    "people_one": "person leaving from around here in the next {{minutes}} min",
+    "people_other": "people leaving from around here in the next {{minutes}} min",
+    "confirmed_one": "{{count}} has already tapped GO",
+    "confirmed_other": "{{count}} have already tapped GO",
+    "topDestinations": "Popular destinations: {{list}}"
+  },
+  "live": {
+    "shareTitle": "Share my location anonymously",
+    "shareHint": "Helps measure real crowding on buses and at stops. Sent only while this is on.",
+    "state": {
+      "waiting": "Waiting for your location…",
+      "on": "Sharing every 10 seconds",
+      "denied": "Location access was denied",
+      "unsupported": "This browser doesn’t support GPS",
+      "insecure": "GPS only works on HTTPS or localhost"
+    },
+    "showTitle": "Show live riders on the map",
+    "online_one": "{{count}} rider online now",
+    "online_other": "{{count}} riders online now"
+  },
+  "chat": {
+    "open": "Open assistant",
+    "title": "Smart Transit assistant",
+    "aiMode": "AI: {{model}}",
+    "rulesMode": "Basic mode (AI not connected)",
+    "greeting": "Hi! Ask me how to get somewhere, when your bus comes, or how full it is.",
+    "suggestions": ["How do I get from Sahil to Koroğlu?", "Is bus 5 crowded?", "Which bus is the least crowded?"],
+    "placeholder": "Type a question…",
+    "failed": "No reply this time. Try again in a moment."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "app": {
+    "name": "Smart Transit",
+    "city": "Баку",
+    "tagline": "Автобусы Баку в реальном времени",
+    "seoTitle": "Smart Transit — автобусы Баку онлайн",
+    "seoDescription": "Автобусы Баку: где сейчас автобус, когда приедет, насколько заполнен и самый удобный маршрут."
+  },
+  "lang": { "label": "Язык", "switch": "Сменить язык" },
+  "theme": { "toDark": "Тёмная тема", "toLight": "Светлая тема" },
+  "nav": {
+    "passenger": "Пассажир",
+    "operatorPanel": "Панель оператора",
+    "login": "Войти",
+    "logout": "Выйти",
+    "home": "Главная"
+  },
+  "status": {
+    "loading": "Загрузка…",
+    "live": "Онлайн",
+    "offline": "Нет связи",
+    "updatedAgo": "обновлено {{ago}}",
+    "justNow": "только что",
+    "error": "Что-то пошло не так. Попробуйте ещё раз.",
+    "notSent": "Не отправлено",
+    "actionFailed": "Не получилось"
+  },
+  "actions": {
+    "close": "Закрыть",
+    "cancel": "Отменить",
+    "confirm": "Подтвердить",
+    "save": "Сохранить",
+    "send": "Отправить",
+    "retry": "Повторить",
+    "back": "Назад",
+    "clear": "Очистить",
+    "swap": "Поменять местами",
+    "show": "Показать",
+    "hide": "Скрыть",
+    "more": "Ещё",
+    "less": "Свернуть"
+  },
+  "crowd": {
+    "title": "Заполненность",
+    "occupancy": "Заполнен на {{pct}}%",
+    "low": { "label": "Низкая", "long": "Свободно", "hint": "Есть сидячие места" },
+    "mid": { "label": "Средняя", "long": "Средняя загрузка", "hint": "Есть места стоя" },
+    "high": { "label": "Высокая", "long": "Очень тесно", "hint": "Битком" },
+    "unknown": { "label": "Нет данных", "long": "Загрузка неизвестна", "hint": "Пока нет отметок" }
+  },
+  "trend": { "up": "растёт", "down": "снижается", "flat": "без изменений", "new": "новое" },
+  "time": {
+    "min": "{{count}} мин",
+    "minUnit_one": "минута",
+    "minUnit_few": "минуты",
+    "minUnit_many": "минут",
+    "minUnit_other": "минуты",
+    "minutes_one": "{{count}} минута",
+    "minutes_few": "{{count}} минуты",
+    "minutes_many": "{{count}} минут",
+    "minutes_other": "{{count}} минуты",
+    "now": "Сейчас",
+    "arriving": "Подъезжает"
+  },
+  "dist": { "m": "{{n}} м", "km": "{{n}} км" },
+  "map": {
+    "loadingGoogle": "Загружаем Google Maps…",
+    "loading": "Загружаем карту…",
+    "engine": "Движок карты",
+    "noGoogleKey": "Не задан VITE_GOOGLE_MAPS_API_KEY",
+    "fallback": "{{reason}} — показываем резервную карту",
+    "reason": {
+      "NO_KEY": "Ключ Google Maps не задан",
+      "FAILED": "Google Maps не загрузились (сеть)",
+      "AUTH_FAILURE": "Ключ Google Maps недействителен или не подключён биллинг",
+      "TIMEOUT": "Google Maps загружаются слишком долго"
+    },
+    "legend": { "liveUsers": "Пассажиры онлайн", "demand": "Ожидаемый спрос" },
+    "bus": {
+      "reserve": "Резерв",
+      "next": "Следующая: {{stop}}",
+      "towards": "В сторону {{headsign}}"
+    },
+    "stopReports_one": "{{count}} отметка",
+    "stopReports_few": "{{count}} отметки",
+    "stopReports_many": "{{count}} отметок",
+    "stopReports_other": "{{count}} отметки",
+    "demandTip": "{{confirmed}} «Еду» · {{searched}} поисков",
+    "from": "Откуда",
+    "to": "Куда"
+  },
+  "route": { "number": "№{{number}}", "line": "Маршрут {{number}}" }
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Primary SEO -->
+    <title>Smart Transit — Bakı avtobuslarında real-vaxt sıxlıq</title>
+    <meta name="description" content="Bakı avtobusları: canlı mövqe, gəliş vaxtı, sərnişin sıxlığı və ən rahat marşrut." />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#f8f9fa" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Nunito: latın + Azərbaycan (ə, ğ, ı) + kiril -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Dark mode + dil: ilk yükləmədə «yanıb-sönmə»nin qarşısı -->
+    <script>
+      try {
+        var t = localStorage.getItem('st_theme')
+        if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark')
+        var l = localStorage.getItem('st_lang')
+        if (l === 'az' || l === 'en' || l === 'ru') document.documentElement.lang = l
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

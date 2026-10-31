@@ -1,0 +1,97 @@
+{
+  "home": {
+    "panel": "Səfər paneli",
+    "yourTrip": "Səfəriniz",
+    "whereTo": "Hara gedirik?",
+    "pickHint": "Xəritədə «{{field}}» nöqtəsinə toxunun.",
+    "lines": "Xətlər",
+    "hint": "Xəttə toxunun — avtobusların nə vaxt gələcəyini və nə qədər dolu olduğunu görəcəksiniz."
+  },
+  "search": {
+    "myLocation": "Mənim yerim",
+    "gps": "GPS ilə",
+    "pickOnMap": "Xəritədə seç",
+    "tapMap": "Xəritəyə toxunun",
+    "tapMapNow": "İndi xəritəyə toxunun…",
+    "unavailable": "Ünvan axtarışı işləmir — dayanacaq adını yazın",
+    "locating": "Yeriniz təyin olunur…",
+    "gpsDenied": "GPS icazəsi verilmədi",
+    "gpsInsecure": "GPS yalnız HTTPS və ya localhost-da işləyir",
+    "placeFailed": "Bu ünvanı açmaq alınmadı — başqasını seçin",
+    "stopSecondary_one": "Dayanacaq, {{routes}} nömrəli xətt",
+    "stopSecondary_other": "Dayanacaq, {{routes}} nömrəli xətlər",
+    "address": "Ünvan"
+  },
+  "trip": {
+    "leaveNow": "İndi çıxın",
+    "leaveAt": "Çıxış: {{time}}",
+    "arriveAt": "Çatma: {{time}}",
+    "go": "Gedirəm",
+    "goHint": "Səfəri təsdiqləyin — operatorlar sərnişin axınını əvvəlcədən görür",
+    "onYourWay": "Yoldasınız",
+    "cancelGo": "Səfəri ləğv et",
+    "goConfirmed": "Səfəriniz qeydə alındı. Sıxlıq olsa, əlavə avtobus vaxtında çıxacaq.",
+    "walkOnly": "Bu məsafəni piyada getmək daha tezdir.",
+    "tag": { "fastest": "Ən tez", "comfort": "Ən rahat" },
+    "preferLabel": "Üstünlük",
+    "prefer": { "fast": "Ən tez", "comfort": "Az sıxlıq" },
+    "calculating": "Hesablanır…",
+    "noRoute": "Bu nöqtələr arasında marşrut tapılmadı. Yaxınlıqdakı başqa nöqtəni seçin.",
+    "alternatives": "Başqa variantlar",
+    "liveGps": "Canlı GPS",
+    "moreStops_one": "daha {{count}} dayanacaq",
+    "moreStops_other": "daha {{count}} dayanacaq"
+  },
+  "route": {
+    "busesOnLine_one": "{{count}} avtobus xəttdə",
+    "busesOnLine_other": "{{count}} avtobus xəttdə",
+    "switchDirection": "İstiqaməti dəyiş",
+    "atStop": "Dayanacaq:",
+    "noBuses": "Bu istiqamətdə hazırda avtobus yoxdur.",
+    "waitingNow_one": "~{{count}} nəfər gözləyir",
+    "waitingNow_other": "~{{count}} nəfər gözləyir",
+    "stops": "Dayanacaqlar",
+    "busApproaching": "{{plate}} bu dayanacağa yaxınlaşır"
+  },
+  "report": {
+    "title": "Avtobus nə qədər doludur?",
+    "subtitle": "Bir toxunuşla digər sərnişinlərə kömək edin.",
+    "whichBus": "Hansı avtobus?",
+    "unknownBus": "Bilmirəm",
+    "useGps": "Mövqeyimi əlavə et — bildiriş daha etibarlı sayılır",
+    "gpsMissing": "GPS icazəsi olmadı, bildiriş mövqesiz göndərildi."
+  },
+  "demand": {
+    "title": "Yaxınlıqdan yola düşənlər",
+    "radius": "Radius",
+    "people_one": "nəfər növbəti {{minutes}} dəqiqədə bu ətrafdan yola düşür",
+    "people_other": "nəfər növbəti {{minutes}} dəqiqədə bu ətrafdan yola düşür",
+    "confirmed_one": "{{count}} nəfər artıq «Gedirəm» dedi",
+    "confirmed_other": "{{count}} nəfər artıq «Gedirəm» dedi",
+    "topDestinations": "Ən çox gedilən: {{list}}"
+  },
+  "live": {
+    "shareTitle": "Mövqeyimi anonim paylaş",
+    "shareHint": "Avtobus və dayanacaqlardakı real sıxlığı hesablamağa kömək edir. Yalnız açıq olanda göndərilir.",
+    "state": {
+      "waiting": "Mövqe gözlənilir…",
+      "on": "Paylaşılır — hər 10 saniyədən bir",
+      "denied": "GPS icazəsi verilmədi",
+      "unsupported": "Brauzer GPS-i dəstəkləmir",
+      "insecure": "GPS yalnız HTTPS və ya localhost-da işləyir"
+    },
+    "showTitle": "Xəritədə canlı sərnişinlər",
+    "online_one": "{{count}} nəfər indi onlayndır",
+    "online_other": "{{count}} nəfər indi onlayndır"
+  },
+  "chat": {
+    "open": "Köməkçini aç",
+    "title": "Smart Transit köməkçisi",
+    "aiMode": "AI: {{model}}",
+    "rulesMode": "Sadə rejim (AI qoşulmayıb)",
+    "greeting": "Salam! Hara necə gedəcəyinizi, avtobusun nə vaxt gələcəyini və nə qədər dolu olduğunu soruşa bilərsiniz.",
+    "suggestions": ["Sahil-dən Koroğlu-ya necə gedim?", "5 nömrəli avtobus sıxdır?", "Ən az sıx avtobus hansıdır?"],
+    "placeholder": "Sualınızı yazın…",
+    "failed": "Cavab alınmadı. Bir az sonra yenidən yazın."
+  }
+}

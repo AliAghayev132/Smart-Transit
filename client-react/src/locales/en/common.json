@@ -1,0 +1,87 @@
+{
+  "app": {
+    "name": "Smart Transit",
+    "city": "Baku",
+    "tagline": "Baku buses, live",
+    "seoTitle": "Smart Transit — Baku buses, live",
+    "seoDescription": "Baku buses: live positions, arrival times, crowding and the most comfortable route."
+  },
+  "lang": { "label": "Language", "switch": "Change language" },
+  "theme": { "toDark": "Dark mode", "toLight": "Light mode" },
+  "nav": {
+    "passenger": "Rider",
+    "operatorPanel": "Operator panel",
+    "login": "Sign in",
+    "logout": "Sign out",
+    "home": "Home"
+  },
+  "status": {
+    "loading": "Loading…",
+    "live": "Live",
+    "offline": "Offline",
+    "updatedAgo": "updated {{ago}}",
+    "justNow": "just now",
+    "error": "Something went wrong. Try again.",
+    "notSent": "Not sent",
+    "actionFailed": "That didn’t work"
+  },
+  "actions": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "send": "Send",
+    "retry": "Try again",
+    "back": "Back",
+    "clear": "Clear",
+    "swap": "Swap",
+    "show": "Show",
+    "hide": "Hide",
+    "more": "More",
+    "less": "Less"
+  },
+  "crowd": {
+    "title": "Crowding",
+    "occupancy": "{{pct}}% full",
+    "low": { "label": "Low", "long": "Not busy", "hint": "Seats available" },
+    "mid": { "label": "Medium", "long": "Fairly busy", "hint": "Standing room" },
+    "high": { "label": "High", "long": "Very busy", "hint": "Packed" },
+    "unknown": { "label": "No data", "long": "Crowding unknown", "hint": "No reports yet" }
+  },
+  "trend": { "up": "rising", "down": "easing", "flat": "steady", "new": "new" },
+  "time": {
+    "min": "{{count}} min",
+    "minUnit_one": "minute",
+    "minUnit_other": "minutes",
+    "minutes_one": "{{count}} minute",
+    "minutes_other": "{{count}} minutes",
+    "now": "Now",
+    "arriving": "Arriving"
+  },
+  "dist": { "m": "{{n}} m", "km": "{{n}} km" },
+  "map": {
+    "loadingGoogle": "Loading Google Maps…",
+    "loading": "Loading map…",
+    "engine": "Map engine",
+    "noGoogleKey": "VITE_GOOGLE_MAPS_API_KEY is not set",
+    "fallback": "{{reason}} — showing the backup map",
+    "reason": {
+      "NO_KEY": "No Google Maps key set",
+      "FAILED": "Google Maps didn’t load (network)",
+      "AUTH_FAILURE": "Google Maps key is invalid or billing is off",
+      "TIMEOUT": "Google Maps took too long to load"
+    },
+    "legend": { "liveUsers": "Live riders", "demand": "Expected demand" },
+    "bus": {
+      "reserve": "Reserve",
+      "next": "Next: {{stop}}",
+      "towards": "Towards {{headsign}}"
+    },
+    "stopReports_one": "{{count}} report",
+    "stopReports_other": "{{count}} reports",
+    "demandTip": "{{confirmed}} “I’m going” · {{searched}} searches",
+    "from": "From",
+    "to": "To"
+  },
+  "route": { "number": "#{{number}}", "line": "Line {{number}}" }
+}

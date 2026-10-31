@@ -1,0 +1,56 @@
+# ==========================================================================
+# Smart Transit Bakı — root .gitignore
+# Hər alt-layihənin (server/, client-react/, client-next/) öz .gitignore-u da var.
+# Bu fayl monorepo səviyyəsində ümumi qaydaları saxlayır.
+# ==========================================================================
+
+# ---------- Dependencies ----------
+node_modules/
+.pnp
+.pnp.js
+
+# ---------- Environment (real secretləri HEÇ VAXT commit etmə) ----------
+# .env.example izlənir, qalan bütün .env variantları ignore olunur.
+.env
+.env.*
+!.env.example
+
+# ---------- Build / output artefaktları ----------
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.vercel/
+
+# ---------- Server upload qovluğu ----------
+uploads/
+
+# ---------- Loglar ----------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------- Editor / IDE ----------
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
+
+# ---------- OS junk ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Lock files (template ships lockless; install regenerates) ----------
+pnpm-lock.yaml
+package-lock.json
+yarn.lock

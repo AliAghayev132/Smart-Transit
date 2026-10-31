@@ -1,0 +1,87 @@
+{
+  "app": {
+    "name": "Smart Transit",
+    "city": "Bakı",
+    "tagline": "Bakı avtobusları — canlı",
+    "seoTitle": "Smart Transit — Bakı avtobusları canlı",
+    "seoDescription": "Bakı avtobusları: canlı mövqe, gəliş vaxtı, sıxlıq və ən rahat marşrut."
+  },
+  "lang": { "label": "Dil", "switch": "Dili dəyiş" },
+  "theme": { "toDark": "Qaranlıq rejim", "toLight": "İşıqlı rejim" },
+  "nav": {
+    "passenger": "Sərnişin",
+    "operatorPanel": "Operator paneli",
+    "login": "Daxil ol",
+    "logout": "Çıxış",
+    "home": "Ana səhifə"
+  },
+  "status": {
+    "loading": "Yüklənir…",
+    "live": "Canlı",
+    "offline": "Bağlantı yoxdur",
+    "updatedAgo": "yeniləndi {{ago}}",
+    "justNow": "indicə",
+    "error": "Nəsə alınmadı. Yenidən cəhd edin.",
+    "notSent": "Göndərilmədi",
+    "actionFailed": "Əməliyyat alınmadı"
+  },
+  "actions": {
+    "close": "Bağla",
+    "cancel": "Ləğv et",
+    "confirm": "Təsdiqlə",
+    "save": "Yadda saxla",
+    "send": "Göndər",
+    "retry": "Yenidən cəhd et",
+    "back": "Geri",
+    "clear": "Təmizlə",
+    "swap": "Yerlərini dəyiş",
+    "show": "Göstər",
+    "hide": "Gizlət",
+    "more": "Daha çox",
+    "less": "Daha az"
+  },
+  "crowd": {
+    "title": "Sıxlıq",
+    "occupancy": "{{pct}}% dolu",
+    "low": { "label": "Az", "long": "Az sıxlıq", "hint": "Oturmağa yer var" },
+    "mid": { "label": "Orta", "long": "Orta sıxlıq", "hint": "Ayaqda yer var" },
+    "high": { "label": "Yüksək", "long": "Yüksək sıxlıq", "hint": "Çox sıxdır" },
+    "unknown": { "label": "Məlumat yoxdur", "long": "Sıxlıq məlum deyil", "hint": "Hələ bildiriş yoxdur" }
+  },
+  "trend": { "up": "artır", "down": "azalır", "flat": "sabit", "new": "yeni" },
+  "time": {
+    "min": "{{count}} dəq",
+    "minUnit_one": "dəqiqə",
+    "minUnit_other": "dəqiqə",
+    "minutes_one": "{{count}} dəqiqə",
+    "minutes_other": "{{count}} dəqiqə",
+    "now": "İndi",
+    "arriving": "Gəlir"
+  },
+  "dist": { "m": "{{n}} m", "km": "{{n}} km" },
+  "map": {
+    "loadingGoogle": "Google Maps yüklənir…",
+    "loading": "Xəritə yüklənir…",
+    "engine": "Xəritə mühərriki",
+    "noGoogleKey": "VITE_GOOGLE_MAPS_API_KEY təyin olunmayıb",
+    "fallback": "{{reason}} — alternativ xəritə göstərilir",
+    "reason": {
+      "NO_KEY": "Google Maps açarı təyin olunmayıb",
+      "FAILED": "Google Maps yüklənmədi (şəbəkə)",
+      "AUTH_FAILURE": "Google Maps açarı etibarsızdır və ya billing aktiv deyil",
+      "TIMEOUT": "Google Maps vaxtında yüklənmədi"
+    },
+    "legend": { "liveUsers": "Canlı sərnişinlər", "demand": "Gözlənilən tələb" },
+    "bus": {
+      "reserve": "Ehtiyat",
+      "next": "Növbəti: {{stop}}",
+      "towards": "{{headsign}} istiqamətində"
+    },
+    "stopReports_one": "{{count}} bildiriş",
+    "stopReports_other": "{{count}} bildiriş",
+    "demandTip": "{{confirmed}} «Gedirəm» · {{searched}} axtarış",
+    "from": "Haradan",
+    "to": "Haraya"
+  },
+  "route": { "number": "№{{number}}", "line": "{{number}} nömrəli xətt" }
+}
